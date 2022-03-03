@@ -1,0 +1,12 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+spreadsheet2shortlinks = {editable = true,git = "https://github.com/hyphacoop/spreadsheet2shortlinks"}
+
+[requires]
+python_version = "3.6"
