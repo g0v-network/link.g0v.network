@@ -12,7 +12,7 @@ on:
 
 jobs:
   runner:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     env:
       REPO_SLUG: g0v-network/link.g0v.network
     steps:
